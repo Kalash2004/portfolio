@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalash-Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Kalash's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi,my name is <span class="purple">Kalash Srivastava</span>
+          <div>i am a BCA Graduate</div>
+          <div>and i am passionate about
+          </div>
+          
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn" onclick="downloadResume()">Download Resume</button>
+            <button class="btn"onclick="visitGitHub()">Vist Github</button>
+          </div>
+        </div>
+        <div class="rightSection"><img src="images/bg.photo.webp" /></div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-grey"> Introduction</span>
+        <h1>About Me</h1>
+        <p>
+          Hello! I'm Kalash Srivastava, a BCA graduate specializing in
+          Artificial Intelligence and Machine Learning. With a passion for AI
+          and a knack for analytical thinking and problem-solving, I am driven
+          to learn and grow in this exciting field. My goal is to leverage AI to
+          develop innovative solutions and help businesses thrive in the
+          ever-evolving tech landscape.
+        </p>
+        <div class="vertical">
+          <img class="image-top" src="images/PROFILE.jpg" />
+        </div>
+      </section>
+      <hr />
+
+      <section class="thirdSection">
+        <span class="text-grey">What i know </span>
+        <h1>Technical Skills</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-bottom" src="images/python.png" />
+            <div class="vertical-title">Python</div>
+            <div class="vertical-desc">
+              Proficient in Python for AI and ML development, with expertise in
+              libraries such as NumPy, Pandas, Scikit-learn, TensorFlow, Keras,
+              PyTorch, and Matplotlib. Experienced in applying techniques like
+              supervised/unsupervised learning, deep learning, natural language
+              processing (NLP), and reinforcement learning to build and deploy
+              machine learning models. Some librariesare:
+              <ul>
+                <li>Numpy</li>
+                <li>Pandas</li>
+                <li>Tensorflow</li>
+                <li>Scikit Learn</li>
+                <li>Matplotlib</li>
+                <li>NLTK</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="vertical">
+            <img class="image-bottom" src="images/developer.png" />
+            <div class="vertical-title">Web development</div>
+            <div class="vertical-desc">
+                Proficient in HTML, CSS, and JavaScript for building responsive and interactive web applications.
+                Experienced in creating modern web layouts, styling, and dynamic content using JavaScript frameworks and libraries.Using 
+                <ul>
+                    <li>HTML</li>
+                    <LI>CSS</LI>
+                    <LI>JavaScript</LI>
+                </ul>
+                
+              </div>
+          </div>
+          
+        </div>
+      </section>
+<hr>
+<section class="fourthSection">
+    <span class="text-grey"> what i have done soo far</span>
+    <h1>Projects</h1>
+    <uL>
+        <li><span class="heading">AI Chatbot:</span> Developed an advanced AI chatbot using NLTK, Scikit-learn, and machine learning algorithms. The chatbot uses natural language processing (NLP) techniques to understand user inputs and provide context-aware responses. Implemented intent recognition, entity extraction, and response generation to create a seamless conversational interface for answering user queries. Integrated with a knowledge base to handle a wide range of user interactions.</li>
+        <li><span class="heading">Credit Card Fraud Detection System:</span> Built a machine learning-based credit card fraud detection system using Python and libraries such as Pandas, NumPy, and Scikit-learn. The system processes large datasets, applies data preprocessing techniques like feature scaling and encoding, and uses classification algorithms like logistic regression and decision trees to identify fraudulent transactions. The model was evaluated on various performance metrics, achieving high accuracy and precision in detecting fraud.</li>
+        <li> <span class="heading">AI Voice Assistant:</span>  Created an AI-powered voice assistant using Python and speech recognition libraries. The assistant can perform various tasks such as opening websites, retrieving the current time, and executing system commands based on voice input. Integrated Text-to-Speech (TTS) functionality using pyttsx3 to provide voice feedback to the user. The assistant also includes custom voice commands for personalized user interaction. </li>
+        <li><span class="heading">Mobile Application:</span>  Developed a fully-functional mobile application using Java and Firebase for real-time data management and user authentication. The app features secure user sign-up/sign-in functionality with Firebase Authentication, real-time profile updates, and data storage with Firebase Firestore. Designed a user-friendly interface to manage user profiles and implemented dynamic content retrieval, ensuring a responsive and engaging experience. The app also integrates Firebase Storage to store user-uploaded media securely.</li>
+    </uL>
+
+
+</section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Kalash's Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            
+            
+          </ul>
+
+        </div>
+        <div class="footer-third">
+          <ul>
+            
+            <li>About</li>
+            
+            
+          </ul>
+
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            
+            <li>Contact</li>
+            
+          </ul>
+
+        </div>
+      </div>
+      <div class="footer-rights">
+       Copyright	&#169; www.kalashsportfolio.com| All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="portfolio.js"></script>
+  </body>
+</html>

@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(0, 0, 46);
+  color: wheat;
+  font-family: 'Poppins',sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color:rgb(18, 18, 62)   ;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px ;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color:rgb(153, 153, 226);
+    font-size: 1.02rem;
+    
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+    margin: 130px 0;
+}
+.firstSection > div{
+    width: 30%;
+}
+.leftSection{
+    
+    font-size: 1.9rem;
+}
+.leftSection.button{
+    padding: 30px;
+    margin: auto;
+}
+.leftSection .btn{
+    
+    padding: 12px;
+    background: #4a469f;
+    color: aliceblue;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.rightSection img{
+    width: 100%;
+    margin: 50px 0;
+}
+.purple{
+    color: rgb(162, 90, 229);
+}
+#element{
+    color:rgb(162, 90, 229);
+}
+.secondSection{
+    max-width:80vw ;
+    margin: auto;
+    height: 80vh;
+}
+main hr{
+    border: 0;
+    background: #9c97f1 ;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+}
+.text-grey{
+    color: gray;
+}
+.secondSection p{
+    font-family: 'Poppins',sans-serif;
+    font-size: large;
+}
+.image-top{
+    width: 250px;
+    border-radius: 15px;
+    margin: auto;
+    padding: 10px;
+}
+.thirdSection{
+    max-width:80vw ;
+    margin: auto;
+    height: 110vh;
+}
+.thirdSection h1{
+    font-size: 1.9rem;
+}
+.thirdSection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.thirdSection .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 150px;
+}
+.image-bottom{
+    width: 25px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+
+}
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: grey;
+    width: 150px;
+    font-size:  12px; ;
+}
+.fourthSection{
+    
+    max-width:80vw ;
+    margin: auto;
+    height: 110vh;
+}
+.heading:hover{
+    font-weight: bold;
+   
+    font-size:1.5rem;
+    font-family: "Poppins",sans-serif;
+}
+footer{
+    background-color: #0e0e1a;
+    
+}
+.footer{
+    display: flex;
+    padding: 23px 123px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer >div{
+    width: 223px;
+}
+.footer-rights{
+    text-align: center;
+    color: grey;
+    padding: 12px;
+    
+}
